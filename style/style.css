@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 body {
     box-sizing: border-box;
 }
@@ -724,6 +728,14 @@ nav>ul>li>a {
     display: flex;
 }
 
+.confidance_block:nth-child(1) {
+    margin-bottom: 60px;
+}
+
+.confidance_block:last-child {
+    margin-top: 66px;
+}
+
 .about_confidance {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -763,7 +775,6 @@ nav>ul>li>a {
     width: 100%;
     height: 1px;
     background: rgba(0, 0, 0, 0.1);
-    margin: 65px 0;
 }
 
 
@@ -862,6 +873,404 @@ nav>ul>li>a {
 }
 
 
+.cooperation_left {
+    width: 50%;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.list_type1 {
+    background: url(../image/list_item_type/list_item1.png) no-repeat;
+    width: 70px;
+    height: 73px;
+    margin-right: 30px;
+}
+
+.list_type2 {
+    background: url(../image/list_item_type/list_item2.png) no-repeat;
+    width: 70px;
+    height: 73px;
+    margin-right: 30px;
+}
+
+.list_text {
+    max-width: 400px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.about_cooperation {
+    max-width: 500px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.cooperation_block {
+    display: flex;
+    padding: 100px 0;
+}
+
+.cooperation_right {
+    width: 50%;
+}
+
+.postcard {
+    padding: 40px 50px 50px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+    font-family: 'Commissioner',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.form2 {
+    font-family: 'Commissioner',sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.form3 {
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.politic {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.form-row input[type="text"],
+.form-row input[type="tel"] {
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    border:none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-family: 'Lato',sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.6;
+}
+
+
+.form-row input[type="submit"] {
+    background: #DEC377;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.main_cost {
+    padding-bottom: 100px;
+}
+
+.about_cost {
+    max-width: 670px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+}
+
+.group_block {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.first_block {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.first_block_title {
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    max-width: 270px;
+}
+
+.our_rating {
+    margin: 60px 0 60px 0;
+}
+
+.our_rating>p {
+    margin-top: 10px;
+}
+
+.caption {
+    font-family: 'Commissioner',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 15px;
+}
+
+.add_text {
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.social_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.social_item1 {
+    background: url(../image/social_icons/vk.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.social_item2 {
+    background: url(../image/social_icons/odnoklassniki.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.social_item3 {
+    background: url(../image/social_icons/linkedin.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.social_item4 {
+    background: url(../image/social_icons/instagram.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.social_item5 {
+    background: url(../image/social_icons/youtube.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.social_item6 {
+    background: url(../image/social_icons/facebook.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.button {
+    border: none;
+    background: none;
+    background: url(../image/arrow.png) no-repeat;
+    background-position: right;
+    width: 160px;
+    text-align: left;
+
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+
+    margin-top: 30px;
+}
+
+.button_politic {
+    width: 240px;
+}
+
+.second_block {
+    width: 670px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+.title_block {
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.title_block::after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.second_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_minsk {
+    width: 200px;
+}
+
+.contact_title {
+    font-family: 'Commissioner',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.numbers {
+    margin: 20px 0;
+}
+
+.adress_text {
+    margin-top: 5px;
+    display: block;
+}
+
+.caption1 {
+    font-family: 'Commissioner',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.rus_residents {
+    margin: 20px 0;
+}
+
+.info_email {
+    font-family: 'Commissioner',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.department_block {
+    width: 200px;
+    margin-bottom: 35px;
+}
+
+.department_block {
+    margin-bottom: 0;
+}
+
+.dep_title {
+    margin-bottom: 10px;
+}
+
+.dep_text {
+    margin: 5px 0;
+    display: block;
+}
+
+.email {
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+}
+
+.third_block {
+    margin-top: 30px;
+    width: 170px;
+}
+
+.working_time {
+    margin-bottom: 30px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+.footer_title {
+    text-align: center;
+    padding: 17px 0 18px 0;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.8);
+}
 
 
 

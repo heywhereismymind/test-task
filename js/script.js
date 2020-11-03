@@ -27,3 +27,7 @@ $(function() {
         prevArrow: document.querySelector('.left_arrow1'),
     })
 })
+
+jQuery(function($){
+   $("#number").mask("+375 (99) 999-99-99");
+});
