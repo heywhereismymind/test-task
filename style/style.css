@@ -58,6 +58,26 @@ body {
     margin-right: 0;
 }
 
+select {
+    border: none;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    outline: none;
+}
+
+option {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
 .language {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif
@@ -69,10 +89,6 @@ body {
     margin-right: 13px;
 }
 
-.rus {
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.8);
-}
 
 .bottom_line {
     display: flex;
