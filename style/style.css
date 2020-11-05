@@ -685,7 +685,6 @@ nav>ul>li>a {
 
 .scroll_block {
     display: grid;
-    display: grid;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(5, 140px);
     grid-gap: 30px;
@@ -1313,6 +1312,247 @@ footer {
     color: rgba(0, 0, 0, 0.8);
 }
 
+
+
+
+
+
+
+
+@media (max-width: 721px) {
+    .header {
+        position: relative;
+    }
+
+    .voka {
+        left: 90%;
+    }
+    
+    .wrapper {
+        width: 95%;
+        margin: 0 15px;
+    }
+
+    .top_line {
+        display: inline-block;
+    }
+
+    .contacts_block {
+        padding: 15px 0;
+        position: absolute;
+        left: 25%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+
+    .container {
+        height: 295px;
+    }   
+
+    .main_container,
+    .slide1,
+    .slide2,
+    .slide3,
+    .slide4 {
+        padding: 40px 0;
+    }
+
+    .main_heading {
+        font-size: 26px;
+        line-height: 34px;
+        height: 50px;
+    }
+
+    .main_text {
+        width: 340px;
+        height: 50px;
+    }
+
+    .arrows {
+        bottom: 28%;
+    }
+
+    .intro_text {
+        text-align: center;
+        margin: 0 auto;
+        width: 430px;
+    }
+
+    .cards_block {
+        position: unset;
+        padding: 40px 0;    
+    }
+
+    .item {
+        margin-right: 10px;
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .item {
+        font-size: 14px;
+    }
+
+    .introduction_photo {
+        display: none;
+    }
+
+    .main_directions_cards {
+        display: grid;
+        grid-template-columns: repeat(3,minmax(200px,1fr));
+        grid-template-rows: repeat(3,100px);
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .info_card {
+        margin: 5px 5px;
+        width: 88px;
+    }
+
+    .info_card>h5 {
+        font-size: 14px;
+    }
+
+    .info_card .small_circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img1{
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn_card {
+        font-size: 9px;
+    }
+
+    .principle_text {
+        display: unset;
+    }
+
+    .principle_title>h2 {
+        width: 100%;
+    }
+
+    .about_principle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .slide {
+        height: 100%;
+    }
+
+    .about_review {
+        padding: 5px;
+    }
+
+    .review_text  {
+        height: 400px;
+    }
+
+    .scroll_block {
+        display: grid;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(5, 100px);
+        grid-gap: 30px;
+    }
+
+    .block_text  {
+        font-size: 14px;
+    }
+
+    .favor_bottom {
+        display: unset;
+    }
+
+    .favor_bottom>.btn {
+        position: absolute;
+        right: 50%;
+    }
+
+    .favor_text {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .confidance_block {
+        display: unset;
+    }
+
+    .confidance_text {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .about_confidance {
+        width: 100%;
+    }
+
+    .main_confidance {
+        padding: 0;
+    }
+
+    .confidance_list {
+        margin: 30px 0;
+    }
+
+    .cards_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .advantages_card {
+        width: 45%;
+        margin: 15px 0;
+    }
+
+    .cooperation_block {
+        display: unset;
+    }
+
+    .intro_heading {
+        text-align: center;
+    }
+
+    .cooperation_left,
+    .cooperation_right {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .cooperation_left > h2,
+    .about_cooperation {
+        text-align: center;
+    }
+
+    .about_cooperation {
+        margin: 0 auto;
+    }
+
+    .list__item {
+        justify-content: center;
+    }
+
+    .about_cost {
+        text-align: center;
+    }
+
+    .main_cost>button {
+        position: absolute;
+        right: 50%;
+    }
+ 
+}
 
 
 
