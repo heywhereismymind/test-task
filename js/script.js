@@ -4,6 +4,7 @@ $(function() {
         nextArrow: document.querySelector('.right_arrow'),
         prevArrow: document.querySelector('.left_arrow'),
         draggable: false,
+        adaptiveHeight: false
     })
 });
 
