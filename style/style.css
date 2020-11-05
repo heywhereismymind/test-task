@@ -1551,6 +1551,10 @@ footer {
         position: absolute;
         right: 50%;
     }
+
+    .group_block {
+        display: none;
+    }
  
 }
 
