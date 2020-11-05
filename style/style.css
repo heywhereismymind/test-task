@@ -1553,7 +1553,29 @@ footer {
     }
 
     .group_block {
-        display: none;
+        display: unset;
+    }
+
+    .first_block {
+        margin: 0 auto;
+    }
+
+    .working_time {
+        margin: 0;
+    }
+
+    .working_time>.dep_text {
+        margin: 0;
+    }
+
+    .third_block {
+        position: relative;
+    }
+
+    .third_container {
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
     }
  
 }
