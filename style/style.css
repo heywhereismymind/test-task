@@ -1568,6 +1568,11 @@ footer {
         margin: 0;
     }
 
+    .second_block {
+        margin-right: 0;
+        width: 100%;
+    }
+
     .third_block {
         position: relative;
     }
