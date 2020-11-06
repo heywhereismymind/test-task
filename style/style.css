@@ -1575,11 +1575,11 @@ footer {
 
     .third_block {
         position: relative;
+        width: 100%;
     }
 
     .third_container {
         display: flex;
-        width: 600px;
         justify-content: space-between;
     }
  
