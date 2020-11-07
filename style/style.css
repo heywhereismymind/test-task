@@ -324,7 +324,7 @@ nav>ul>li>a {
 
 .main_directions_cards {
     display: grid;
-    grid-template-columns: repeat(3,minmax(320px,1fr));
+    grid-template-columns: repeat(3,minmax(50px,1fr));
     grid-template-rows: repeat(3,140px);
     gap: 30px;
     margin-bottom: 40px;
@@ -791,7 +791,7 @@ nav>ul>li>a {
     align-items: center;
     margin-left: 150px;
     margin-bottom: 35px;
-    width: 440px;
+    max-width: 440px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 17px;
@@ -1259,7 +1259,7 @@ nav>ul>li>a {
 
 
 .department_block {
-    width: 200px;
+    max-width: 200px;
     margin-bottom: 35px;
 }
 
@@ -1319,7 +1319,7 @@ footer {
 
 
 
-@media (max-width: 721px) {
+@media (max-width: 721px){
     .header {
         position: relative;
     }
@@ -1405,7 +1405,7 @@ footer {
 
     .main_directions_cards {
         display: grid;
-        grid-template-columns: repeat(3,minmax(200px,1fr));
+        grid-template-columns: repeat(3,minmax(50px,1fr));
         grid-template-rows: repeat(3,100px);
         gap: 30px;
         margin-bottom: 40px;
@@ -1474,9 +1474,8 @@ footer {
         display: unset;
     }
 
-    .favor_bottom>.btn {
-        position: absolute;
-        right: 50%;
+    .main_favor {
+        text-align: center;
     }
 
     .favor_text {
@@ -1547,9 +1546,8 @@ footer {
         text-align: center;
     }
 
-    .main_cost>button {
-        position: absolute;
-        right: 50%;
+    .main_cost> {
+        text-align: center;
     }
 
     .group_block {
@@ -1585,7 +1583,7 @@ footer {
  
 }
 
-@media (max-width: 321px) {
+@media (max-width: 536px) {
     .wrapper {
         width: 90%;
     }
@@ -1744,6 +1742,112 @@ footer {
         font-size: 16px;
     }
 
+    .review {
+        height: 500px;
+        width: 100%;
+    }
+
+    .slide .slick-dots {
+        position: relative;
+        bottom: -75px;
+        width: 100px;
+        left: 52.5%;
+    }
+
+    .main_parthners_top {
+        display: unset;
+    }
+
+
+    .parthners_text {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .parthners_block>a:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .top_card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .cards {
+        margin-right: 0;
+    }
+
+    .pen_bg {
+        background: url(../image/pen_bg.png) no-repeat;
+        background-size: contain;
+        height: 50px;
+    }
+
+    .block {
+        text-align: left;
+    }
+
+    .scroll_block {
+        grid-gap: 10px;
+    }
+
+    .block_text {
+        font-family: 'Commissioner', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.9);
+        padding-top: 5px;
+        padding-left: 75px;
+    }
+
+    .block>button {
+        margin: 0;
+    }
+
+    .confidance_list {
+        position: relative;
+        right: 25%;
+    }
+
+    .list__item {
+        display: unset;
+    }
+
+    .list_type1,
+    .list_type2 {
+        float: left;
+    }
+
+    .list_text {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .main_cost {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .first_block {
+        margin: 0;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .bottom_card {
+        display: block;
+    }
+
+    .bottom_text {
+        width: 100%;
+    }
+
+    .bottom_title {
+        margin-bottom: 15px;
+    }
 }
 
 
