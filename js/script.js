@@ -31,7 +31,8 @@ $(function () {
                 breakpoint: 720,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    dots: false
                 }
             }
         ]
