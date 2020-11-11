@@ -1885,6 +1885,53 @@ footer {
     .main_parthners {
         text-align: center;
     }
+
+    .info_card {
+        margin: 5px auto;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    .small_circle {
+        width: 0;
+        height: 0;
+        border: none;
+        position: absolute;
+        top: 55px;
+        left: 71px;
+    }
+
+    .block1,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6 {
+        background: white;
+    }
+
+    .block_text {
+        padding: 15px 10px;
+    }
+
+    .list_item {
+        align-items: unset;
+        margin-left: 0;
+    }
+
+    .confidance_list {
+        position: unset;
+    }
+
+    .list__item {
+        display: flex;
+    }
+
+    .list_text {
+        width: 56%;
+    }
 }
 
 @media (max-width: 429px) {
@@ -1895,6 +1942,22 @@ footer {
     .block_text {
         padding-top: 20px;
         padding-left: 5px;
+    }
+
+    .contacts_block>a {
+        text-align: center;
+    }
+
+    .item_text {
+        font-size: 15px;
+    }
+
+    .small_circle {
+        left: 65px;
+    }
+
+    .pen_bg {
+        background-size: unset;
     }
 }
 
