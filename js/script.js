@@ -42,3 +42,13 @@ $(function () {
 jQuery(function ($) {
     $("#number").mask("+375 (99) 999-99-99");
 });
+
+
+(function ($) {
+    $(function(){
+       $('.burger_icon').on('click', function(){
+           $(this).closest('.nav').toggleClass('nav-open');
+       }); 
+    });
+})(jQuery);
+
