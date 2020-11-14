@@ -137,11 +137,20 @@ option {
 
 
 .bottom_line {
+    background: white;
+    padding: 20px 0;
+}
+
+
+.line_wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 36px 0 22px 0;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 15px;
 }
+
 
 nav>ul {
     display: flex;
@@ -182,11 +191,12 @@ nav>ul>li:last-child {
         position: fixed;
         top:0;
         right: 0;
-        margin-top: 86px;
         background: white;
         z-index: 4;
         overflow: auto;
         opacity: 0;
+        height: 100%;
+        width: 40%;
     }
     .nav ul li {
         display: block;
@@ -202,12 +212,6 @@ nav>ul>li:last-child {
         position: fixed;
         right: 0;
         z-index: 3;
-    }
-}
-
-@media (max-width: 537px) {
-    .nav ul {
-        margin-top: 139px;
     }
 }
 
@@ -1453,6 +1457,10 @@ footer {
         display: inline-block;
     }
 
+    .line_wrap {
+        width: 95%;
+    }
+
     .contacts_block {
         padding: 15px 0;
         position: absolute;
@@ -2087,6 +2095,9 @@ footer {
 
     .bottom_title {
         width: 100%;
+    }
+    .nav ul {
+        width: 50%;
     }
 }
 
