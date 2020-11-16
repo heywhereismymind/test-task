@@ -86,7 +86,7 @@ btn.on('click', function (e) {
 
 
 /*---------------Fixed Menu------------------*/
-$('.bottom_line').addClass('original').clone().insertAfter('.bottom_line').addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').css('padding', 0).css('opacity', '0.8').removeClass('original').hide();
+$('.bottom_line').addClass('original').clone().insertAfter('.bottom_line').addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '5').css('padding', 0).css('opacity', '0.8').removeClass('original').hide();
 
 scrollIntervalID = setInterval(stickIt, 10);
 
